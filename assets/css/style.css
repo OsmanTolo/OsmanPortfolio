@@ -18,3 +18,67 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
 }
+
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--accent-clr);
+  height: 100%;
+}
+
+.navbar a {
+  color: var(--accent-clr);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--dark-clr);
+  text-decoration: underline;
+}
+
+.navbar ul li {
+  margin-left: 1.75rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+}
+
+.hero-banner .description {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.hero-banner .role {
+  font-weight: 700;
+  color: var(--accent-clr);
+}
