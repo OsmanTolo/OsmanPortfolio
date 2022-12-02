@@ -8,10 +8,13 @@
 
   --greyscale-dark-clr: #4c4c65;
   --greyscale-light-clr: #e2e3e7;
+
+  --header-font-family: "Inconsolata", monospace;
+  --para-font-family: "Lato", sans-serif;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: var(--para-font-family);
   font-size: 16px;
   line-height: 1.5;
   background: var(--light-clr);
@@ -71,6 +74,8 @@ header .logo {
 
 .hero-banner h1 {
   font-size: 3rem;
+  font-family: var(--header-font-family);
+  line-height: 1.25;
 }
 
 .hero-banner .description {
@@ -79,6 +84,8 @@ header .logo {
 }
 
 .hero-banner .role {
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: "Inconsolata", monospace;
   color: var(--accent-clr);
 }
