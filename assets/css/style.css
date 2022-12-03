@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Lato:wght@400;700&display=swap");
 
 :root {
-  --light-clr: #d4d4d4;
+  --light-clr: #fff;
+  --grey-clr: #d4d4d4;
   --dark-clr: #000026;
   --accent-clr: #4830e6;
 
@@ -11,6 +12,49 @@
 
   --header-font-family: "Inconsolata", monospace;
   --para-font-family: "Lato", sans-serif;
+}
+
+/* Utilities */
+.btn {
+  padding: 5px 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  background: var(--accent-clr);
+  border: 2px solid var(--accent-clr);
+  color: var(--light-clr);
+}
+
+.primary-btn:hover {
+  background: var(--light-clr);
+  color: var(--accent-clr);
+}
+
+.secondary-btn {
+  border: 2px solid var(--accent-clr);
+}
+
+.secondary-btn:hover {
+  background: var(--accent-clr);
+  color: var(--light-clr);
+}
+
+.card {
+  border-radius: 5px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding-top: 1rem;
+  transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 body {
@@ -35,8 +79,13 @@ header {
 }
 
 header .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
+  font-family: var(--header-font-family);
+}
+
+.logo span {
+  /* min-width: 2rem; */
 }
 
 .navbar .nav-items {
@@ -88,4 +137,19 @@ header .logo {
   font-size: 1.25rem;
   font-family: "Inconsolata", monospace;
   color: var(--accent-clr);
+}
+
+.hero-banner .cta-btns {
+  margin-top: 2.5rem;
+}
+
+.hero-banner .cta-btns .my-work {
+  margin-right: 2rem;
+}
+
+.projects section {
+  background: var(--grey-clr);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
