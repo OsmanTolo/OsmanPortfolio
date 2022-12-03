@@ -9,9 +9,9 @@
     <title>Osman Dumbuya</title>
   </head>
   <body>
-    <div class="page-container">
-      <!-- main logo / nav -->
-      <header>
+    <!-- main logo / nav -->
+    <header>
+      <div class="container">
         <p class="logo">Osman.</p>
         <nav class="navbar">
           <ul class="nav-items">
@@ -22,11 +22,13 @@
           </ul>
         </nav>
         <a class="resume btn secondary-btn" href="#">Resume</a>
-      </header>
+      </div>
+    </header>
 
-      <main>
-        <!-- hero banner -->
-        <section id="about" class="hero-banner page-section">
+    <main>
+      <!-- hero banner -->
+      <section id="about" class="hero-banner page-section">
+        <div class="container">
           <div class="about-me">
             <p class="role">FRONTEND DEVELOPER</p>
             <h1>Hello, my name is Osman <span>Dumbuya</span>.</h1>
@@ -44,73 +46,79 @@
             src="./images/osman-cropped-no-bg.png"
             alt="An image of the author."
           />
-        </section>
+        </div>
+      </section>
 
-        <!-- Projects -->
-        <section class="page-section projects" id="projects">
-          <h2>Featured Projects</h2>
-          <div class="card project">
+      <!-- Projects -->
+      <section class="project-section" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="container">
+          <div class="card">
             <h3>Project Name</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Adipisci, quis?
             </p>
-            <a href="https://osmantolo.github.io/seo-optimization/"
+            <a
+              href="https://osmantolo.github.io/seo-optimization/"
+              target="_blank"
               ><img src="./images/02-portfolio-1.jpg" alt=""
             /></a>
           </div>
-          <div class="card project">
-            <h3>Project Name</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Adipisci, quis?
-            </p>
-            <a href="https://osmantolo.github.io/seo-optimization/"
-              ><img src="./images/seo-project.png" alt=""
-            /></a>
-          </div>
-          <!-- <div class="card project">
-            <h3>Project Name</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Adipisci, quis?
-            </p>
-            <a href="https://osmantolo.github.io/seo-optimization/"
-              ><img src="./images/seo-project.png" alt=""
-            /></a>
-          </div>
-          <div class="card project">
-            <h3>Project Name</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Adipisci, quis?
-            </p>
-            <a href="https://osmantolo.github.io/seo-optimization/"
-              ><img src="./images/seo-project.png" alt=""
-            /></a>
-          </div>
-          <div class="card project">
-            <h3>Project Name</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Adipisci, quis?
-            </p>
-            <a href="https://osmantolo.github.io/seo-optimization/"
-              ><img src="./images/seo-project.png" alt=""
-            /></a>
-          </div> -->
-        </section>
 
-        <!-- portfolio container -->
-        <section class="page-section" id="skills">
+          <div class="card">
+            <h3>Project Name</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quis?
+            </p>
+            <a
+              href="https://osmantolo.github.io/seo-optimization/"
+              target="_blank"
+              ><img src="./images/02-portfolio-1.jpg" alt=""
+            /></a>
+          </div>
+
+          <div class="card">
+            <h3>Project Name</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quis?
+            </p>
+            <a
+              href="https://osmantolo.github.io/seo-optimization/"
+              target="_blank"
+              ><img src="./images/02-portfolio-1.jpg" alt=""
+            /></a>
+          </div>
+          <div class="card">
+            <h3>Project Name</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quis?
+            </p>
+            <a
+              href="https://osmantolo.github.io/seo-optimization/"
+              target="_blank"
+              ><img src="./images/02-portfolio-3.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio container -->
+      <section class="skills-section" id="skills">
+        <div class="container">
           <h2>Work</h2>
-        </section>
+        </div>
+      </section>
 
-        <!-- contact -->
-        <section class="page-section contact" id="contact">
+      <!-- contact -->
+      <section class="page-section contact" id="contact">
+        <div class="container">
           <h2>Contact Me</h2>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
