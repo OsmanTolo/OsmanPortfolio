@@ -227,3 +227,25 @@ header .logo {
 .contact-section {
   background: var(--light-grey-clr);
 }
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--header-font-family);
+  padding: 1rem 0;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.social-links {
+  font-size: 1.5rem;
+  color: var(--accent-clr);
+  display: flex;
+  gap: 1rem;
+}
