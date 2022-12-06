@@ -1,6 +1,7 @@
 /* Google Font Import */
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Lato:wght@400;700&display=swap");
 
+/* CSS variables to avoid DRY */
 :root {
   --light-clr: #fff;
   --grey-clr: #d4d4d4;
@@ -15,7 +16,7 @@
   --para-font-family: "Lato", sans-serif;
 }
 
-/* Utilities */
+/* Utility classes for common elements */
 body {
   font-family: var(--para-font-family);
   font-size: 16px;
@@ -69,6 +70,7 @@ body {
   transition: 0.3s;
 }
 
+/* Header styling - naviagation var */
 header .container {
   height: 80px;
   display: flex;
@@ -97,6 +99,7 @@ header .logo {
   font-weight: 600;
 }
 
+/* Hover effect for nav links */
 .navbar a:hover {
   color: var(--dark-clr);
   text-decoration: underline;
@@ -108,6 +111,7 @@ header .logo {
   list-style: none;
 }
 
+/* Hero section  */
 .hero-banner .container {
   display: flex;
   align-items: center;
@@ -142,6 +146,7 @@ header .logo {
   margin-right: 2rem;
 }
 
+/* Project section */
 .project-section,
 .skills-section,
 .contact-section {
@@ -163,6 +168,7 @@ header .logo {
   gap: 1rem;
 }
 
+/* Scale transform hover effect on project cards*/
 .project-cards .card:hover {
   transform: scale(1.05);
   transition: 0.5s;
@@ -170,6 +176,7 @@ header .logo {
   color: var(--light-clr);
 }
 
+/* Set border radius on images to match card */
 .project-section img {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -198,13 +205,13 @@ header .logo {
   margin-top: 2rem;
 }
 
+/* Skills section */
 .skills-section {
   background: var(--light-clr);
 }
 
 .skills-section .skills-icons {
   font-size: 4rem;
-  /* color: var(--accent-clr); */
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: flex;
@@ -230,6 +237,7 @@ header .logo {
   font-size: 1.25rem;
 }
 
+/* Contact section utlising 2 column grid */
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -289,6 +297,7 @@ header .logo {
   min-width: 40%;
 }
 
+/* Footer */
 footer .container {
   font-family: var(--header-font-family);
   padding: 1rem 0;
@@ -301,6 +310,7 @@ footer .container i {
   margin-right: 1rem;
 }
 
+/* Media query for tablet device - responsive */
 @media only screen and (min-width: 728px) and (max-width: 1024px) {
   .container {
     max-width: 700px;
@@ -426,6 +436,7 @@ footer .container i {
   }
 }
 
+/* Media query for mobile device - responsive */
 @media only screen and (min-width: 368px) and (max-width: 727px) {
   .container {
     max-width: 368px;
