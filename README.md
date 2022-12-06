@@ -2,6 +2,8 @@
 
 Built and Designed by Osman Dumbuya usig: HTML and CSS
 
+![Screenshot of the webpage](./images/OsmanPortfolio_.png)
+
 ## Description
 
 This repo contains the source code to my personal portfolio which will be updated as I cover more concepts of web development. It will initially serve as my solution to the Module 2 - Personal Portfolio Challenge of Trilogy Skills Front-End Development Boot Camp. The project provide evidence of my ability to design and code a user friendly single page website that can be accessed by anyone with an internet connection.
@@ -20,8 +22,6 @@ In doing so:
 ## Usage
 
 Visit this github page [link](https://osmantolo.github.io/OsmanPortfolio/) to access the website. You can navigate through the different sections of the page by clicking the links in the top navigation bar.
-
-![Screenshot of the webpage](./images/OsmanPortfolio_.png)
 
 ## Credits
 
