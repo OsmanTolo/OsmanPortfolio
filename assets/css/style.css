@@ -301,9 +301,9 @@ footer .container i {
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 900px) {
+@media only screen and (min-width: 728px) and (max-width: 1024px) {
   .container {
-    max-width: 728px;
+    max-width: 700px;
     margin: 0 auto;
   }
 
@@ -426,10 +426,11 @@ footer .container i {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 368px) and (max-width: 727px) {
   .container {
-    max-width: 320px;
+    max-width: 368px;
     margin: 0 auto;
+    padding: 0 1rem;
   }
 
   header .container {
