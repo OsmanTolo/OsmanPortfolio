@@ -1,6 +1,6 @@
 # Personal Portfolio Page
 
-Built and Designed by Osman Dumbuya usig: HTML and CSS
+Built and Designed by Osman Dumbuya using: HTML and CSS
 
 ![Screenshot of the webpage](./images/OsmanPortfolio_.png)
 
